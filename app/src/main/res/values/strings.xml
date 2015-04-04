@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HomeWork IV</string>
+
+    <string name="hello_world">EX 4-1</string>
+    <string name="action_settings">Settings</string>
+    <string name="height">身高:</string>
+    <string name="weight">體重:</string>
+    <string name="btn">確定</string>
+    <string name="btn2">返回</string>
+</resources>

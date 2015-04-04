@@ -36,8 +36,11 @@ public class MainActivity extends ActionBarActivity {
                 double height =Double.parseDouble(edheight.getText().toString());
                 double weight =Double.parseDouble(edweight.getText().toString());
 
-                bundle.putDouble("height", height);
-                bundle.putDouble("weight", weight);
+                //bundle.putDouble("height", height);
+                //bundle.putDouble("weight", weight);
+                double height2 =height/100*height/100;
+                double BMI =weight/height2;
+                bundle.putDouble("BMI",BMI);
                 intent.putExtras(bundle);
                 startActivity(intent);
 
