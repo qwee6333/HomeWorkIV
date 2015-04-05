@@ -39,7 +39,8 @@ public class MainActivity extends ActionBarActivity {
                 //bundle.putDouble("height", height);
                 //bundle.putDouble("weight", weight);
                 double height2 =height/100*height/100;
-                double BMI =weight/height2;
+                double BMI;
+                BMI = weight/height2;
                 bundle.putDouble("BMI",BMI);
                 intent.putExtras(bundle);
                 startActivity(intent);
