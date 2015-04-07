@@ -7,4 +7,5 @@
     <string name="weight">體重:</string>
     <string name="btn">確定</string>
     <string name="btn2">返回</string>
+    <string name="inputError">資料未輸入或輸入錯誤，請返回再輸入一次！！</string>
 </resources>

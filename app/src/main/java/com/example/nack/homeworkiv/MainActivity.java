@@ -1,8 +1,8 @@
 package com.example.nack.homeworkiv;
 
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -36,8 +36,26 @@ public class MainActivity extends ActionBarActivity {
                 double height =Double.parseDouble(edheight.getText().toString());
                 double weight =Double.parseDouble(edweight.getText().toString());
 
-                //bundle.putDouble("height", height);
-                //bundle.putDouble("weight", weight);
+                bundle.putDouble("height", height);
+                bundle.putDouble("weight", weight);
+               // try {
+                  //  double weight =Double.parseDouble(edweight.getText().toString());
+                   // double height =Double.parseDouble(edheight.getText().toString());
+
+                   // if (!(weight = 0.0 , height = 0.0)) {
+
+                  //      double height2 = height / 100 * height / 100;
+                   //     double BMI;
+                   //     BMI = weight / height2;
+                   //     bundle.putDouble("BMI", BMI);
+                   // } else {
+                  //      throw new Exception();
+                  //  }
+
+               // } catch (Exception e) {
+                //    Toast.makeText(MainActivity.this, getString(R.string.inputError), Toast.LENGTH_SHORT).show();
+                 //   return;
+               // }
                 double height2 =height/100*height/100;
                 double BMI;
                 BMI = weight/height2;
